@@ -16,7 +16,7 @@ const SideBar = () => {
       <div className="self-end sidebar-bottom">
         <div className="pb-8 px-6 copyright">
           <p className="text-center text-sm content">
-            2021 © Cosmos-Themes.
+            2021 © Hieu Vo Van.
             All Right Reserved.
           </p>
         </div>

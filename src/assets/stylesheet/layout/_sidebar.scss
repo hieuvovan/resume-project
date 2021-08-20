@@ -2,6 +2,7 @@
 .sidebar-wrapper {
   background-color: #17181b;
   position: relative;
+  color: map-get($color, text);
 
   .infor {
     position: relative;
