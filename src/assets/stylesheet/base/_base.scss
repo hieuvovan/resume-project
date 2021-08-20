@@ -5,6 +5,11 @@
 }
 
 html, body {
-  color: map-get($color, text);
+  color: map-get($color, white);
   font-size: 16px;
+}
+
+.highlight {
+  color: map-get($color, primary);
+  font-family: $font-body;
 }

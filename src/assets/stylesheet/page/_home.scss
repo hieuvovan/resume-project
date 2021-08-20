@@ -1,0 +1,14 @@
+.section-home {
+  background-image: url('../../images/sample/background.jpeg');
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  .my-information {
+    transform: translate(-50%, -50%);
+  }
+
+  .underline-highlight {
+    border-bottom: 2px solid map-get($color, primary);
+  }
+}
