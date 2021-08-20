@@ -1,9 +1,19 @@
 import React from 'react';
-import Resume from './pages/resume';
+import Home from './pages/Home';
+import SideBar from './layout/SideBar';
 
 const App = () => {
   return (
-    <Resume />
+    <div className="page-wrapper">
+      <div className="flex">
+        <aside className="w-1/6 side-bar">
+          <SideBar />
+        </aside>
+        <main className="w-5/6 page-main">
+          <Home />
+        </main>
+      </div>
+    </div>
   );
 }
 
