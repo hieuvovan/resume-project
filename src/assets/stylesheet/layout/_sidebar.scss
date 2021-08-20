@@ -1,0 +1,38 @@
+/* Sidebar */
+.sidebar-wrapper {
+  background-color: #17181b;
+  position: relative;
+
+  .infor {
+    position: relative;
+  }
+
+  .name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(49, 156, 209, 0.9);
+  }
+
+  .nav-item {
+    border-bottom: 1px solid rgba(161, 163, 164, 0.2);
+
+    &:hover {
+      .nav-content {
+        color: map-get($color, white);
+        transition: 0.5s;
+      }
+      
+      path {
+        stroke: map-get($color, white);
+        transition: 0.5s;
+      }
+       
+    }
+  }
+
+  .sidebar-bottom {
+    position: absolute;
+    bottom: 0;
+  }
+}
