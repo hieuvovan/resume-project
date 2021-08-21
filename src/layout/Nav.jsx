@@ -1,22 +1,27 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
 
   return (
     <nav className="nav">
       <ul className="nav-list">
-        <li className="pl-10 py-3 flex cursor-pointer nav-item">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M3 12L5 10M5 10L12 3L19 10M5 10V20C5 20.5523 5.44772 21 6 21H9M19 10L21 12M19 10V20C19 20.5523 18.5523 21 18 21H15M9 21C9.55228 21 10 20.5523 10 20V16C10 15.4477 10.4477 15 11 15H13C13.5523 15 14 15.4477 14 16V20C14 20.5523 14.4477 21 15 21M9 21H15" stroke="#6d7178" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-          <p className="pl-2 text-base nav-content">Home</p>
+        <li className="nav-item">
+          <Link className="pl-10 py-3 flex cursor-pointer" to="/">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 12L5 10M5 10L12 3L19 10M5 10V20C5 20.5523 5.44772 21 6 21H9M19 10L21 12M19 10V20C19 20.5523 18.5523 21 18 21H15M9 21C9.55228 21 10 20.5523 10 20V16C10 15.4477 10.4477 15 11 15H13C13.5523 15 14 15.4477 14 16V20C14 20.5523 14.4477 21 15 21M9 21H15" stroke="#6d7178" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <p className="pl-2 text-base nav-content">Home</p>
+          </Link>
         </li>
-        <li className="pl-10 py-3 flex cursor-pointer nav-item">
+        <li className="nav-item">
+        <Link className="pl-10 py-3 flex cursor-pointer" to="/about-me">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M16 7C16 9.20914 14.2091 11 12 11C9.79086 11 8 9.20914 8 7C8 4.79086 9.79086 3 12 3C14.2091 3 16 4.79086 16 7Z" stroke="#6d7178" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             <path d="M12 14C8.13401 14 5 17.134 5 21H19C19 17.134 15.866 14 12 14Z" stroke="#6d7178" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
           <p className="pl-2 text-base nav-content">About me</p>
+        </Link>
         </li>
         <li className="pl-10 py-3 flex cursor-pointer nav-item">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

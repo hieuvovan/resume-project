@@ -13,3 +13,7 @@ html, body {
   color: map-get($color, primary);
   font-family: $font-body;
 }
+
+.underline-highlight {
+  border-bottom: 2px solid map-get($color, primary);
+}
