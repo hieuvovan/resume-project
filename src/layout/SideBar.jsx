@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './Nav';
-import avatar from '../assets/images/sample/avatar.jpeg';;
+import avatar from '../assets/images/sample/avatar.jpeg';
 
 const SideBar = () => {
 
